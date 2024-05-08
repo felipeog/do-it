@@ -1,0 +1,110 @@
+/* ========================================
+   Theme variables
+======================================== */
+
+:root {
+  --background-color: white;
+  --foreground-color: black;
+  --text-color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --foreground-color: red;
+    --text-color: white;
+  }
+}
+
+/* ========================================
+   Soft reset
+======================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========================================
+   General styles
+======================================== */
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  background-color: var(--background-color);
+}
+
+.wrapper {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: center;
+}
+
+.container {
+  transform-style: preserve-3d;
+  transform: rotateX(14.5082deg) rotateY(-14.9276deg);
+}
+
+.text {
+  font-weight: bolder;
+  font-size: 20vw;
+  text-transform: uppercase;
+  color: var(--text-color);
+  text-align: center;
+  text-shadow:
+    0.039806996381182146vw 0.038688524590163934vw var(--foreground-color),
+    0.07961399276236429vw 0.07737704918032787vw var(--foreground-color),
+    0.11942098914354643vw 0.1160655737704918vw var(--foreground-color),
+    0.15922798552472858vw 0.15475409836065573vw var(--foreground-color),
+    0.19903498190591074vw 0.19344262295081968vw var(--foreground-color),
+    0.23884197828709286vw 0.2321311475409836vw var(--foreground-color),
+    0.27864897466827504vw 0.27081967213114755vw var(--foreground-color),
+    0.31845597104945716vw 0.30950819672131147vw var(--foreground-color),
+    0.3582629674306393vw 0.3481967213114754vw var(--foreground-color),
+    0.39806996381182147vw 0.38688524590163936vw var(--foreground-color),
+    0.4378769601930036vw 0.4255737704918033vw var(--foreground-color),
+    0.4776839565741857vw 0.4642622950819672vw var(--foreground-color),
+    0.517490952955368vw 0.5029508196721312vw var(--foreground-color),
+    0.5572979493365501vw 0.5416393442622951vw var(--foreground-color),
+    0.5971049457177322vw 0.580327868852459vw var(--foreground-color),
+    0.6369119420989143vw 0.6190163934426229vw var(--foreground-color),
+    0.6767189384800966vw 0.6577049180327869vw var(--foreground-color),
+    0.7165259348612786vw 0.6963934426229508vw var(--foreground-color),
+    0.7563329312424608vw 0.7350819672131147vw var(--foreground-color),
+    0.7961399276236429vw 0.7737704918032787vw var(--foreground-color),
+    0.8359469240048251vw 0.8124590163934425vw var(--foreground-color),
+    0.8757539203860072vw 0.8511475409836066vw var(--foreground-color),
+    0.9155609167671894vw 0.8898360655737705vw var(--foreground-color),
+    0.9553679131483714vw 0.9285245901639344vw var(--foreground-color),
+    0.9951749095295537vw 0.9672131147540983vw var(--foreground-color),
+    1.034981905910736vw 1.0059016393442624vw var(--foreground-color),
+    1.0747889022919181vw 1.0445901639344262vw var(--foreground-color),
+    1.1145958986731002vw 1.0832786885245902vw var(--foreground-color),
+    1.1544028950542822vw 1.121967213114754vw var(--foreground-color),
+    1.1942098914354644vw 1.160655737704918vw var(--foreground-color),
+    1.2340168878166466vw 1.1993442622950818vw var(--foreground-color),
+    1.2738238841978287vw 1.2380327868852459vw var(--foreground-color),
+    1.313630880579011vw 1.27672131147541vw var(--foreground-color),
+    1.3534378769601931vw 1.3154098360655737vw var(--foreground-color),
+    1.3932448733413751vw 1.3540983606557375vw var(--foreground-color),
+    1.4330518697225572vw 1.3927868852459016vw var(--foreground-color),
+    1.4728588661037394vw 1.4314754098360656vw var(--foreground-color),
+    1.5126658624849216vw 1.4701639344262294vw var(--foreground-color),
+    1.5524728588661039vw 1.5088524590163934vw var(--foreground-color),
+    1.5922798552472859vw 1.5475409836065575vw var(--foreground-color),
+    1.632086851628468vw 1.5862295081967213vw var(--foreground-color),
+    1.6718938480096501vw 1.624918032786885vw var(--foreground-color),
+    1.7117008443908324vw 1.663606557377049vw var(--foreground-color),
+    1.7515078407720144vw 1.7022950819672131vw var(--foreground-color),
+    1.7913148371531966vw 1.740983606557377vw var(--foreground-color),
+    1.8311218335343789vw 1.779672131147541vw var(--foreground-color),
+    1.8709288299155609vw 1.8183606557377048vw var(--foreground-color),
+    1.9107358262967429vw 1.8570491803278688vw var(--foreground-color),
+    1.9505428226779251vw 1.8957377049180326vw var(--foreground-color),
+    1.9903498190591074vw 1.9344262295081966vw var(--foreground-color);
+}
