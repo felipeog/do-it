@@ -1,6 +1,6 @@
-# DO IT
+# DO IT!
 
-Inspired by [Mat Voyce](https://dribbble.com/MatVoyce)'s [DO IT](https://dribbble.com/shots/15062355-DO-IT).
+Inspired by [Mat Voyce](https://dribbble.com/MatVoyce)'s [DO IT!](https://dribbble.com/shots/15062355-DO-IT).
 
 ## Preview
 
