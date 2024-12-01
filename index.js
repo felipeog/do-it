@@ -72,11 +72,11 @@ function render() {
     state.current.x !== state.target.x ||
     state.current.y !== state.target.y
   ) {
-    const halfWidth = window.innerWidth * 0.5;
-    const halfHeight = window.innerHeight * 0.5;
-
     const x = getPositionWithInertia(state.current.x, state.target.x);
     const y = getPositionWithInertia(state.current.y, state.target.y);
+
+    const halfWidth = window.innerWidth * 0.5;
+    const halfHeight = window.innerHeight * 0.5;
 
     // left is negative, right is posivite
     const xPercentage = (x - halfWidth) / halfWidth;
